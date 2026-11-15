@@ -1,0 +1,47 @@
+{
+  "method": "centralized",
+  "seed": 42,
+  "wall_time_s": 0.19555479200789705,
+  "val": {
+    "n": 86,
+    "n_malignant": 32,
+    "n_benign": 54,
+    "accuracy": 0.9186046511627907,
+    "recall": 0.78125,
+    "specificity": 1.0,
+    "fpr": 0.0,
+    "precision": 1.0,
+    "f1": 0.8771929824561403,
+    "roc_auc": 0.9890046296296297,
+    "tn": 54,
+    "fp": 0,
+    "fn": 7,
+    "tp": 25,
+    "finite_outputs": true
+  },
+  "test": {
+    "n": 86,
+    "n_malignant": 32,
+    "n_benign": 54,
+    "accuracy": 0.9418604651162791,
+    "recall": 0.84375,
+    "specificity": 1.0,
+    "fpr": 0.0,
+    "precision": 1.0,
+    "f1": 0.9152542372881356,
+    "roc_auc": 0.990162037037037,
+    "tn": 54,
+    "fp": 0,
+    "fn": 5,
+    "tp": 27,
+    "finite_outputs": true
+  },
+  "client_summary": {
+    "mean_client_accuracy": 0.9314726209463051,
+    "mean_client_recall": 0.8314285714285713,
+    "worst_client_recall": 0.6666666666666666,
+    "std_client_recall": 0.10697235110170646,
+    "client_recall_gap": 0.33333333333333337,
+    "n_clients_recall_defined": 5
+  }
+}

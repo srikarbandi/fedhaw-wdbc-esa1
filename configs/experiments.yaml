@@ -1,0 +1,22 @@
+# Experiment grid. Values here override configs/default.yaml.
+
+seeds: [42, 123, 2026]
+
+distributions:
+  - {name: IID,         scheme: iid}
+  - {name: Dir_a10,     scheme: dirichlet, alpha: 10.0}
+  - {name: Dir_a1,      scheme: dirichlet, alpha: 1.0}
+  - {name: Dir_a0.1,    scheme: dirichlet, alpha: 0.1}
+
+# Methods compared in the final experiments. "fedhaw_default" uses the original
+# repository's step sizes; "fedhaw_tuned" uses validation-selected step sizes.
+methods: [centralized, fedavg, fedprox, fedhaw_default, fedhaw_tuned]
+
+# Validation-only hyperparameter selection (scripts/tune.py).
+# Selection criterion: mean final-round VALIDATION cross-entropy over all
+# distributions and seeds. The test split is never touched.
+tuning:
+  shared_lr: [0.001, 0.01, 0.05, 0.1]         # selected with FedAvg, then shared by all methods
+  fedhaw_lr_gamma: [1.0e-6, 1.0e-5, 1.0e-4, 1.0e-3, 1.0e-2]
+  fedhaw_lr_lambda: [1.0e-3, 1.0e-2, 1.0e-1, 1.0]
+  fedprox_mu_prox: [0.001, 0.01, 0.1, 1.0]

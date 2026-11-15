@@ -1,0 +1,26 @@
+[main] IID       seed 42    acc/recall: centralized 0.988/0.969 | fedavg 1.000/1.000 | fedprox 1.000/1.000 | fedhaw_default 0.988/0.969 | fedhaw_tuned 1.000/1.000
+[main] IID       seed 123   acc/recall: centralized 0.953/0.969 | fedavg 0.965/0.969 | fedprox 0.965/0.969 | fedhaw_default 0.953/0.969 | fedhaw_tuned 0.965/0.969
+[main] IID       seed 2026  acc/recall: centralized 0.953/0.938 | fedavg 0.953/0.969 | fedprox 0.953/0.969 | fedhaw_default 0.953/0.938 | fedhaw_tuned 0.953/0.969
+[main] Dir_a10   seed 42    acc/recall: centralized 0.988/0.969 | fedavg 0.988/0.969 | fedprox 0.988/0.969 | fedhaw_default 0.988/0.969 | fedhaw_tuned 0.988/0.969
+[main] Dir_a10   seed 123   acc/recall: centralized 0.953/0.969 | fedavg 0.977/0.969 | fedprox 0.977/0.969 | fedhaw_default 0.953/0.969 | fedhaw_tuned 0.977/0.969
+[main] Dir_a10   seed 2026  acc/recall: centralized 0.953/0.938 | fedavg 0.965/0.969 | fedprox 0.965/0.969 | fedhaw_default 0.942/0.938 | fedhaw_tuned 0.965/0.969
+[main] Dir_a1    seed 42    acc/recall: centralized 0.988/0.969 | fedavg 0.988/0.969 | fedprox 0.988/0.969 | fedhaw_default 0.988/0.969 | fedhaw_tuned 0.988/0.969
+[main] Dir_a1    seed 123   acc/recall: centralized 0.953/0.969 | fedavg 0.965/0.969 | fedprox 0.965/0.969 | fedhaw_default 0.930/0.969 | fedhaw_tuned 0.965/0.969
+[main] Dir_a1    seed 2026  acc/recall: centralized 0.953/0.938 | fedavg 0.965/0.969 | fedprox 0.965/0.969 | fedhaw_default 0.942/0.938 | fedhaw_tuned 0.965/0.969
+[main] Dir_a0.1  seed 42    acc/recall: centralized 0.988/0.969 | fedavg 0.988/0.969 | fedprox 0.988/0.969 | fedhaw_default 0.977/0.969 | fedhaw_tuned 0.988/0.969
+[main] Dir_a0.1  seed 123   acc/recall: centralized 0.953/0.969 | fedavg 0.965/0.969 | fedprox 0.965/0.969 | fedhaw_default 0.953/0.969 | fedhaw_tuned 0.965/0.969
+[main] Dir_a0.1  seed 2026  acc/recall: centralized 0.953/0.938 | fedavg 0.965/0.906 | fedprox 0.965/0.906 | fedhaw_default 0.953/0.938 | fedhaw_tuned 0.965/0.906
+[main] done in 17s
+[suggested_lr0.001] IID       seed 42    acc/recall: centralized 0.942/0.844 | fedavg 0.814/0.688 | fedprox 0.814/0.688 | fedhaw_default 0.826/0.844
+[suggested_lr0.001] IID       seed 123   acc/recall: centralized 0.872/0.656 | fedavg 0.733/0.406 | fedprox 0.733/0.406 | fedhaw_default 0.744/0.438
+[suggested_lr0.001] IID       seed 2026  acc/recall: centralized 0.930/0.812 | fedavg 0.419/1.000 | fedprox 0.419/1.000 | fedhaw_default 0.442/1.000
+[suggested_lr0.001] Dir_a10   seed 42    acc/recall: centralized 0.942/0.844 | fedavg 0.826/0.656 | fedprox 0.826/0.656 | fedhaw_default 0.826/0.812
+[suggested_lr0.001] Dir_a10   seed 123   acc/recall: centralized 0.872/0.656 | fedavg 0.733/0.375 | fedprox 0.733/0.375 | fedhaw_default 0.709/0.281
+[suggested_lr0.001] Dir_a10   seed 2026  acc/recall: centralized 0.930/0.812 | fedavg 0.419/1.000 | fedprox 0.419/1.000 | fedhaw_default 0.512/1.000
+[suggested_lr0.001] Dir_a1    seed 42    acc/recall: centralized 0.942/0.844 | fedavg 0.814/0.625 | fedprox 0.814/0.625 | fedhaw_default 0.849/0.812
+[suggested_lr0.001] Dir_a1    seed 123   acc/recall: centralized 0.872/0.656 | fedavg 0.767/0.406 | fedprox 0.767/0.406 | fedhaw_default 0.756/0.375
+[suggested_lr0.001] Dir_a1    seed 2026  acc/recall: centralized 0.930/0.812 | fedavg 0.430/1.000 | fedprox 0.430/1.000 | fedhaw_default 0.674/1.000
+[suggested_lr0.001] Dir_a0.1  seed 42    acc/recall: centralized 0.942/0.844 | fedavg 0.837/0.625 | fedprox 0.837/0.625 | fedhaw_default 0.860/0.812
+[suggested_lr0.001] Dir_a0.1  seed 123   acc/recall: centralized 0.872/0.656 | fedavg 0.628/0.000 | fedprox 0.628/0.000 | fedhaw_default 0.860/0.656
+[suggested_lr0.001] Dir_a0.1  seed 2026  acc/recall: centralized 0.930/0.812 | fedavg 0.779/0.406 | fedprox 0.779/0.406 | fedhaw_default 0.860/0.625
+[suggested_lr0.001] done in 14s

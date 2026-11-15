@@ -1,0 +1,111 @@
+Dataset verification:
+  n_samples: 569
+  n_features: 30
+  raw_diagnosis_values: ['B', 'M']
+  label_mapping: {'B': 0, 'M': 1}
+  class_counts: {'benign': 357, 'malignant': 212}
+  class_percent: {'benign': 62.74, 'malignant': 37.26}
+  missing_values_total: 0
+  duplicate_rows_full: 0
+  duplicate_ids: 0
+  duplicate_feature_vectors: 0
+  feature_dtypes: ['float64']
+  verified: True
+
+seed 42 | IID | rejected draws: 0
+  client        n  benign  malig.     %B     %M   test n (B/M)
+  Hospital 1   80      50      30   62.5   37.5    18 (11/7)
+  Hospital 2   80      50      30   62.5   37.5    17 (11/6)
+  Hospital 3   79      50      29   63.3   36.7    17 (11/6)
+  Hospital 4   79      50      29   63.3   36.7    17 (11/6)
+  Hospital 5   79      49      30   62.0   38.0    17 (10/7)
+
+seed 42 | Dir_a10 | rejected draws: 0
+  client        n  benign  malig.     %B     %M   test n (B/M)
+  Hospital 1   88      56      32   63.6   36.4    19 (12/7)
+  Hospital 2   90      64      26   71.1   28.9    19 (14/5)
+  Hospital 3   54      25      29   46.3   53.7    11 (5/6)
+  Hospital 4   81      53      28   65.4   34.6    18 (12/6)
+  Hospital 5   84      51      33   60.7   39.3    19 (11/8)
+
+seed 42 | Dir_a1 | rejected draws: 0
+  client        n  benign  malig.     %B     %M   test n (B/M)
+  Hospital 1  109      79      30   72.5   27.5    23 (17/6)
+  Hospital 2  107      78      29   72.9   27.1    23 (17/6)
+  Hospital 3  144      79      65   54.9   45.1    31 (17/14)
+  Hospital 4   12      10       2   83.3   16.7     3 (2/1)
+  Hospital 5   25       3      22   12.0   88.0     6 (1/5)
+
+seed 42 | Dir_a0.1 | rejected draws: 2
+  client        n  benign  malig.     %B     %M   test n (B/M)
+  Hospital 1  133       0     133    0.0  100.0    28 (0/28)  <- single class
+  Hospital 2   64      64       0  100.0    0.0    13 (13/0)  <- single class
+  Hospital 3  182     176       6   96.7    3.3    41 (39/2)
+  Hospital 4    8       8       0  100.0    0.0     1 (1/0)  <- single class
+  Hospital 5   10       1       9   10.0   90.0     3 (1/2)
+
+seed 123 | IID | rejected draws: 0
+  client        n  benign  malig.     %B     %M   test n (B/M)
+  Hospital 1   80      50      30   62.5   37.5    18 (11/7)
+  Hospital 2   80      50      30   62.5   37.5    17 (11/6)
+  Hospital 3   79      50      29   63.3   36.7    17 (11/6)
+  Hospital 4   79      50      29   63.3   36.7    17 (11/6)
+  Hospital 5   79      49      30   62.0   38.0    17 (10/7)
+
+seed 123 | Dir_a10 | rejected draws: 0
+  client        n  benign  malig.     %B     %M   test n (B/M)
+  Hospital 1   58      34      24   58.6   41.4    12 (7/5)
+  Hospital 2  103      70      33   68.0   32.0    22 (15/7)
+  Hospital 3   95      63      32   66.3   33.7    21 (14/7)
+  Hospital 4   76      39      37   51.3   48.7    16 (8/8)
+  Hospital 5   65      43      22   66.2   33.8    15 (10/5)
+
+seed 123 | Dir_a1 | rejected draws: 0
+  client        n  benign  malig.     %B     %M   test n (B/M)
+  Hospital 1  150     108      42   72.0   28.0    32 (23/9)
+  Hospital 2  101      22      79   21.8   78.2    22 (5/17)
+  Hospital 3   48      46       2   95.8    4.2    10 (10/0)
+  Hospital 4   65      56       9   86.2   13.8    14 (12/2)
+  Hospital 5   33      17      16   51.5   48.5     8 (4/4)
+
+seed 123 | Dir_a0.1 | rejected draws: 14
+  client        n  benign  malig.     %B     %M   test n (B/M)
+  Hospital 1    8       8       0  100.0    0.0     1 (1/0)  <- single class
+  Hospital 2    5       0       5    0.0  100.0     1 (0/1)  <- single class
+  Hospital 3    5       0       5    0.0  100.0     1 (0/1)  <- single class
+  Hospital 4  240     240       0  100.0    0.0    52 (52/0)  <- single class
+  Hospital 5  139       1     138    0.7   99.3    31 (1/30)
+
+seed 2026 | IID | rejected draws: 0
+  client        n  benign  malig.     %B     %M   test n (B/M)
+  Hospital 1   80      50      30   62.5   37.5    18 (11/7)
+  Hospital 2   80      50      30   62.5   37.5    17 (11/6)
+  Hospital 3   79      50      29   63.3   36.7    17 (11/6)
+  Hospital 4   79      50      29   63.3   36.7    17 (11/6)
+  Hospital 5   79      49      30   62.0   38.0    17 (10/7)
+
+seed 2026 | Dir_a10 | rejected draws: 0
+  client        n  benign  malig.     %B     %M   test n (B/M)
+  Hospital 1   80      44      36   55.0   45.0    16 (9/7)
+  Hospital 2   57      29      28   50.9   49.1    12 (6/6)
+  Hospital 3  100      70      30   70.0   30.0    23 (16/7)
+  Hospital 4   79      53      26   67.1   32.9    17 (11/6)
+  Hospital 5   81      53      28   65.4   34.6    18 (12/6)
+
+seed 2026 | Dir_a1 | rejected draws: 0
+  client        n  benign  malig.     %B     %M   test n (B/M)
+  Hospital 1   50      10      40   20.0   80.0    10 (2/8)
+  Hospital 2  138      90      48   65.2   34.8    30 (19/11)
+  Hospital 3   31      30       1   96.8    3.2     7 (7/0)
+  Hospital 4   84      49      35   58.3   41.7    17 (10/7)
+  Hospital 5   94      70      24   74.5   25.5    22 (16/6)
+
+seed 2026 | Dir_a0.1 | rejected draws: 7
+  client        n  benign  malig.     %B     %M   test n (B/M)
+  Hospital 1   28       0      28    0.0  100.0     6 (0/6)  <- single class
+  Hospital 2   76       0      76    0.0  100.0    16 (0/16)  <- single class
+  Hospital 3   11      11       0  100.0    0.0     2 (2/0)  <- single class
+  Hospital 4  228     228       0  100.0    0.0    49 (49/0)  <- single class
+  Hospital 5   54      10      44   18.5   81.5    13 (3/10)
+
+Saved splits, partitions, tables and plots.

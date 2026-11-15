@@ -1,0 +1,11 @@
+split,client,n,benign,malignant,benign_pct,malignant_pct,single_class,empty
+train,Hospital 1,8,8,0,100.0,0.0,True,False
+train,Hospital 2,5,0,5,0.0,100.0,True,False
+train,Hospital 3,5,0,5,0.0,100.0,True,False
+train,Hospital 4,240,240,0,100.0,0.0,True,False
+train,Hospital 5,139,1,138,0.7,99.3,False,False
+test,Hospital 1,1,1,0,100.0,0.0,True,False
+test,Hospital 2,1,0,1,0.0,100.0,True,False
+test,Hospital 3,1,0,1,0.0,100.0,True,False
+test,Hospital 4,52,52,0,100.0,0.0,True,False
+test,Hospital 5,31,1,30,3.2,96.8,False,False

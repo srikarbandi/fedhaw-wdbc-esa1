@@ -1,0 +1,55 @@
+{
+  "criterion": "min mean final-round validation cross-entropy (4 distributions x 3 seeds)",
+  "selected": {
+    "training": {
+      "lr": 0.05
+    },
+    "fedhaw": {
+      "lr_gamma": 1e-05,
+      "lr_lambda": 0.01
+    },
+    "fedprox": {
+      "mu_prox": 0.01
+    }
+  },
+  "fedavg_at_selected_lr": {
+    "method": "fedavg",
+    "lr": 0.05,
+    "val_loss": 0.05912496491024891,
+    "val_acc": 0.9825581395348836,
+    "val_recall": 0.9739583333333334,
+    "all_finite": true,
+    "max_abs_gamma": 0.0,
+    "mean_final_exp_gamma": null
+  },
+  "fedhaw_repo_defaults_at_selected_lr": {
+    "lr_gamma": 0.001,
+    "lr_lambda": 0.01,
+    "val_loss": 0.5556088412801424,
+    "val_acc": 0.9796511627906975,
+    "val_recall": 0.9791666666666666,
+    "all_finite": true,
+    "max_abs_gamma": 0.03647276337853502,
+    "mean_final_exp_gamma": 1.0200698556226684
+  },
+  "fedhaw_best": {
+    "lr_gamma": 1e-05,
+    "lr_lambda": 0.01,
+    "val_loss": 0.058785946729282536,
+    "val_acc": 0.9825581395348836,
+    "val_recall": 0.9739583333333334,
+    "all_finite": true,
+    "max_abs_gamma": 0.0008403653267651419,
+    "mean_final_exp_gamma": 1.00070148509221
+  },
+  "fedprox_best": {
+    "mu_prox": 0.01,
+    "val_loss": 0.059127457129458584,
+    "val_acc": 0.9825581395348836,
+    "val_recall": 0.9739583333333334,
+    "all_finite": true,
+    "max_abs_gamma": 0.0,
+    "mean_final_exp_gamma": null
+  },
+  "runtime_s": 101.98095870896941
+}

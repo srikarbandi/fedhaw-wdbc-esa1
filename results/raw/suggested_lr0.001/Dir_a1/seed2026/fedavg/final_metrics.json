@@ -1,0 +1,47 @@
+{
+  "method": "fedavg",
+  "seed": 2026,
+  "wall_time_s": 0.24805066600674763,
+  "val": {
+    "n": 86,
+    "n_malignant": 32,
+    "n_benign": 54,
+    "accuracy": 0.45348837209302323,
+    "recall": 0.9375,
+    "specificity": 0.16666666666666666,
+    "fpr": 0.8333333333333334,
+    "precision": 0.4,
+    "f1": 0.5607476635514018,
+    "roc_auc": 0.9155092592592592,
+    "tn": 9,
+    "fp": 45,
+    "fn": 2,
+    "tp": 30,
+    "finite_outputs": true
+  },
+  "test": {
+    "n": 86,
+    "n_malignant": 32,
+    "n_benign": 54,
+    "accuracy": 0.43023255813953487,
+    "recall": 1.0,
+    "specificity": 0.09259259259259259,
+    "fpr": 0.9074074074074074,
+    "precision": 0.3950617283950617,
+    "f1": 0.5663716814159292,
+    "roc_auc": 0.9137731481481481,
+    "tn": 5,
+    "fp": 49,
+    "fn": 0,
+    "tp": 32,
+    "finite_outputs": true
+  },
+  "client_summary": {
+    "mean_client_accuracy": 0.413511586452763,
+    "mean_client_recall": 1.0,
+    "worst_client_recall": 1.0,
+    "std_client_recall": 0.0,
+    "client_recall_gap": 0.0,
+    "n_clients_recall_defined": 4
+  }
+}

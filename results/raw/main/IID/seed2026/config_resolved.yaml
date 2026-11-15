@@ -1,0 +1,32 @@
+data:
+  path: breast+cancer+wisconsin+diagnostic/wdbc.data
+  train_frac: 0.7
+  val_frac: 0.15
+  test_frac: 0.15
+partition:
+  num_clients: 5
+  client_names:
+  - Hospital 1
+  - Hospital 2
+  - Hospital 3
+  - Hospital 4
+  - Hospital 5
+  min_client_size: 5
+  max_redraws: 10000
+model:
+  hidden_sizes:
+  - 64
+  - 32
+  dropout: 0.0
+training:
+  rounds: 50
+  local_epochs: 1
+  batch_size: 16
+  lr: 0.05
+  optimizer: SGD
+  device: cpu
+fedhaw:
+  lr_gamma: 1.0e-05
+  lr_lambda: 0.01
+fedprox:
+  mu_prox: 0.01

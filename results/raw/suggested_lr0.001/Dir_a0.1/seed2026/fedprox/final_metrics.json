@@ -1,0 +1,47 @@
+{
+  "method": "fedprox",
+  "seed": 2026,
+  "wall_time_s": 0.336267750011757,
+  "val": {
+    "n": 86,
+    "n_malignant": 32,
+    "n_benign": 54,
+    "accuracy": 0.7674418604651163,
+    "recall": 0.375,
+    "specificity": 1.0,
+    "fpr": 0.0,
+    "precision": 1.0,
+    "f1": 0.5454545454545454,
+    "roc_auc": 0.9346064814814814,
+    "tn": 54,
+    "fp": 0,
+    "fn": 20,
+    "tp": 12,
+    "finite_outputs": true
+  },
+  "test": {
+    "n": 86,
+    "n_malignant": 32,
+    "n_benign": 54,
+    "accuracy": 0.7790697674418605,
+    "recall": 0.40625,
+    "specificity": 1.0,
+    "fpr": 0.0,
+    "precision": 1.0,
+    "f1": 0.5777777777777777,
+    "roc_auc": 0.9068287037037037,
+    "tn": 54,
+    "fp": 0,
+    "fn": 19,
+    "tp": 13,
+    "finite_outputs": true
+  },
+  "client_summary": {
+    "mean_client_accuracy": 0.6826923076923077,
+    "mean_client_recall": 0.425,
+    "worst_client_recall": 0.375,
+    "std_client_recall": 0.05400617248673217,
+    "client_recall_gap": 0.125,
+    "n_clients_recall_defined": 3
+  }
+}

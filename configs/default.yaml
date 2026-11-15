@@ -1,0 +1,35 @@
+# Default configuration for the WDBC FedHAW study.
+# Every experiment run saves the fully-resolved config next to its outputs.
+
+data:
+  path: breast+cancer+wisconsin+diagnostic/wdbc.data   # relative to project root; read-only
+  train_frac: 0.70
+  val_frac: 0.15
+  test_frac: 0.15
+
+partition:
+  num_clients: 5
+  client_names: [Hospital 1, Hospital 2, Hospital 3, Hospital 4, Hospital 5]
+  # Dirichlet draws are repeated until every hospital has >= min_client_size
+  # training samples; the number of rejected draws is saved in the metadata.
+  min_client_size: 5
+  max_redraws: 10000
+
+model:
+  hidden_sizes: [64, 32]
+  dropout: 0.0
+
+training:
+  rounds: 50              # communication rounds T
+  local_epochs: 1         # E
+  batch_size: 16
+  lr: 0.001               # local SGD learning rate (mu in the original code)
+  optimizer: SGD          # as in the original FedHAW MNIST example
+  device: cpu
+
+fedhaw:
+  lr_gamma: 0.001         # original repository default (run_serverside.py)
+  lr_lambda: 0.01         # original repository default (run_serverside.py)
+
+fedprox:
+  mu_prox: 0.01

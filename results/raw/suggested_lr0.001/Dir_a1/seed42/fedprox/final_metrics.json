@@ -1,0 +1,47 @@
+{
+  "method": "fedprox",
+  "seed": 42,
+  "wall_time_s": 0.36294645798625425,
+  "val": {
+    "n": 86,
+    "n_malignant": 32,
+    "n_benign": 54,
+    "accuracy": 0.8488372093023255,
+    "recall": 0.65625,
+    "specificity": 0.9629629629629629,
+    "fpr": 0.037037037037037035,
+    "precision": 0.9130434782608695,
+    "f1": 0.7636363636363637,
+    "roc_auc": 0.931712962962963,
+    "tn": 52,
+    "fp": 2,
+    "fn": 11,
+    "tp": 21,
+    "finite_outputs": true
+  },
+  "test": {
+    "n": 86,
+    "n_malignant": 32,
+    "n_benign": 54,
+    "accuracy": 0.813953488372093,
+    "recall": 0.625,
+    "specificity": 0.9259259259259259,
+    "fpr": 0.07407407407407407,
+    "precision": 0.8333333333333334,
+    "f1": 0.7142857142857143,
+    "roc_auc": 0.9126157407407407,
+    "tn": 50,
+    "fp": 4,
+    "fn": 12,
+    "tp": 20,
+    "finite_outputs": true
+  },
+  "client_summary": {
+    "mean_client_accuracy": 0.8205703599812997,
+    "mean_client_recall": 0.6628571428571429,
+    "worst_client_recall": 0.16666666666666666,
+    "std_client_recall": 0.2812573002327946,
+    "client_recall_gap": 0.8333333333333334,
+    "n_clients_recall_defined": 5
+  }
+}

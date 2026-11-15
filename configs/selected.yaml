@@ -1,0 +1,10 @@
+selected_by: scripts/tune.py (validation split only)
+criterion: min mean final-round validation cross-entropy (4 distributions x 3 seeds)
+overrides:
+  training:
+    lr: 0.05
+  fedhaw:
+    lr_gamma: 1.0e-05
+    lr_lambda: 0.01
+  fedprox:
+    mu_prox: 0.01

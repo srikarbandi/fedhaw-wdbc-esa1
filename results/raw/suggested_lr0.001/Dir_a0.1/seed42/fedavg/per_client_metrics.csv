@@ -1,0 +1,6 @@
+client,n_train,n,n_malignant,n_benign,accuracy,recall,specificity,fpr,precision,f1,roc_auc,tn,fp,fn,tp,finite_outputs
+Hospital 1,133,28,28,0,0.6785714285714286,0.6785714285714286,nan,nan,1.0,0.8085106382978723,nan,0,0,9,19,True
+Hospital 2,64,13,0,13,1.0,nan,1.0,0.0,nan,nan,nan,13,0,0,0,True
+Hospital 3,182,41,2,39,0.926829268292683,0.5,0.9487179487179487,0.05128205128205128,0.3333333333333333,0.4,0.9615384615384616,37,2,1,1,True
+Hospital 4,8,1,0,1,1.0,nan,1.0,0.0,nan,nan,nan,1,0,0,0,True
+Hospital 5,10,3,2,1,0.3333333333333333,0.0,1.0,0.0,nan,0.0,1.0,1,0,2,0,True

@@ -1,0 +1,37 @@
+Stage A: shared learning rate (FedAvg selects; FedHAW repo-defaults = stability pilot)
+  lr=0.001  fedavg          val_loss=0.6367 val_acc=0.6909 val_recall=0.5703 finite=True max|gamma|=0
+  lr=0.001  fedhaw_default  val_loss=0.5244 val_acc=0.7558 val_recall=0.7083 finite=True max|gamma|=0.0824
+  lr=0.01   fedavg          val_loss=0.1754 val_acc=0.9632 val_recall=0.9010 finite=True max|gamma|=0
+  lr=0.01   fedhaw_default  val_loss=0.2392 val_acc=0.9835 val_recall=0.9714 finite=True max|gamma|=0.0647
+  lr=0.05   fedavg          val_loss=0.0591 val_acc=0.9826 val_recall=0.9740 finite=True max|gamma|=0
+  lr=0.05   fedhaw_default  val_loss=0.5556 val_acc=0.9797 val_recall=0.9792 finite=True max|gamma|=0.0365
+  lr=0.1    fedavg          val_loss=0.0628 val_acc=0.9816 val_recall=0.9714 finite=True max|gamma|=0
+  lr=0.1    fedhaw_default  val_loss=0.4831 val_acc=0.9797 val_recall=0.9792 finite=True max|gamma|=0.0311
+  -> selected lr = 0.05
+Stage B: FedHAW (lr_gamma, lr_lambda)
+  lr_gamma=1e-06    lr_lambda=0.001  val_loss=0.0591 val_acc=0.9826 recall=0.9740 finite=True final exp(gamma)=1.0001
+  lr_gamma=1e-06    lr_lambda=0.01   val_loss=0.0591 val_acc=0.9826 recall=0.9740 finite=True final exp(gamma)=1.0001
+  lr_gamma=1e-06    lr_lambda=0.1    val_loss=0.0593 val_acc=0.9806 recall=0.9688 finite=True final exp(gamma)=1.0001
+  lr_gamma=1e-06    lr_lambda=1      val_loss=0.0785 val_acc=0.9729 recall=0.9479 finite=True final exp(gamma)=1.0001
+  lr_gamma=1e-05    lr_lambda=0.001  val_loss=0.0588 val_acc=0.9826 recall=0.9740 finite=True final exp(gamma)=1.0007
+  lr_gamma=1e-05    lr_lambda=0.01   val_loss=0.0588 val_acc=0.9826 recall=0.9740 finite=True final exp(gamma)=1.0007
+  lr_gamma=1e-05    lr_lambda=0.1    val_loss=0.0590 val_acc=0.9806 recall=0.9688 finite=True final exp(gamma)=1.0007
+  lr_gamma=1e-05    lr_lambda=1      val_loss=0.0779 val_acc=0.9738 recall=0.9505 finite=True final exp(gamma)=1.0007
+  lr_gamma=0.0001   lr_lambda=0.001  val_loss=0.0618 val_acc=0.9835 recall=0.9766 finite=True final exp(gamma)=1.0061
+  lr_gamma=0.0001   lr_lambda=0.01   val_loss=0.0618 val_acc=0.9835 recall=0.9766 finite=True final exp(gamma)=1.0061
+  lr_gamma=0.0001   lr_lambda=0.1    val_loss=0.0621 val_acc=0.9826 recall=0.9740 finite=True final exp(gamma)=1.0062
+  lr_gamma=0.0001   lr_lambda=1      val_loss=0.0784 val_acc=0.9758 recall=0.9583 finite=True final exp(gamma)=1.0064
+  lr_gamma=0.001    lr_lambda=0.001  val_loss=0.5544 val_acc=0.9806 recall=0.9792 finite=True final exp(gamma)=1.0201
+  lr_gamma=0.001    lr_lambda=0.01   val_loss=0.5556 val_acc=0.9797 recall=0.9792 finite=True final exp(gamma)=1.0201
+  lr_gamma=0.001    lr_lambda=0.1    val_loss=0.5600 val_acc=0.9797 recall=0.9792 finite=True final exp(gamma)=1.0201
+  lr_gamma=0.001    lr_lambda=1      val_loss=0.6069 val_acc=0.9797 recall=0.9792 finite=True final exp(gamma)=1.0176
+  lr_gamma=0.01     lr_lambda=0.001  val_loss=0.4574 val_acc=0.9835 recall=0.9792 finite=True final exp(gamma)=1.0354
+  lr_gamma=0.01     lr_lambda=0.01   val_loss=0.4620 val_acc=0.9835 recall=0.9792 finite=True final exp(gamma)=1.0353
+  lr_gamma=0.01     lr_lambda=0.1    val_loss=0.5131 val_acc=0.9835 recall=0.9792 finite=True final exp(gamma)=1.0353
+  lr_gamma=0.01     lr_lambda=1      val_loss=0.9072 val_acc=0.9816 recall=0.9792 finite=True final exp(gamma)=1.0346
+Stage C: FedProx mu_prox
+  mu_prox=0.001  val_loss=0.0591 val_acc=0.9826 recall=0.9740
+  mu_prox=0.01   val_loss=0.0591 val_acc=0.9826 recall=0.9740
+  mu_prox=0.1    val_loss=0.0592 val_acc=0.9826 recall=0.9740
+  mu_prox=1      val_loss=0.0601 val_acc=0.9835 recall=0.9766
+Selected: {'training': {'lr': 0.05}, 'fedhaw': {'lr_gamma': 1e-05, 'lr_lambda': 0.01}, 'fedprox': {'mu_prox': 0.01}} (103s)

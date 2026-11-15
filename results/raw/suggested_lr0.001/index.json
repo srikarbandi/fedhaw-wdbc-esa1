@@ -1,0 +1,126 @@
+{
+  "tag": "suggested_lr0.001",
+  "runs": [
+    {
+      "dist": "IID",
+      "seed": 42,
+      "methods": [
+        "centralized",
+        "fedavg",
+        "fedprox",
+        "fedhaw_default"
+      ]
+    },
+    {
+      "dist": "IID",
+      "seed": 123,
+      "methods": [
+        "centralized",
+        "fedavg",
+        "fedprox",
+        "fedhaw_default"
+      ]
+    },
+    {
+      "dist": "IID",
+      "seed": 2026,
+      "methods": [
+        "centralized",
+        "fedavg",
+        "fedprox",
+        "fedhaw_default"
+      ]
+    },
+    {
+      "dist": "Dir_a10",
+      "seed": 42,
+      "methods": [
+        "centralized",
+        "fedavg",
+        "fedprox",
+        "fedhaw_default"
+      ]
+    },
+    {
+      "dist": "Dir_a10",
+      "seed": 123,
+      "methods": [
+        "centralized",
+        "fedavg",
+        "fedprox",
+        "fedhaw_default"
+      ]
+    },
+    {
+      "dist": "Dir_a10",
+      "seed": 2026,
+      "methods": [
+        "centralized",
+        "fedavg",
+        "fedprox",
+        "fedhaw_default"
+      ]
+    },
+    {
+      "dist": "Dir_a1",
+      "seed": 42,
+      "methods": [
+        "centralized",
+        "fedavg",
+        "fedprox",
+        "fedhaw_default"
+      ]
+    },
+    {
+      "dist": "Dir_a1",
+      "seed": 123,
+      "methods": [
+        "centralized",
+        "fedavg",
+        "fedprox",
+        "fedhaw_default"
+      ]
+    },
+    {
+      "dist": "Dir_a1",
+      "seed": 2026,
+      "methods": [
+        "centralized",
+        "fedavg",
+        "fedprox",
+        "fedhaw_default"
+      ]
+    },
+    {
+      "dist": "Dir_a0.1",
+      "seed": 42,
+      "methods": [
+        "centralized",
+        "fedavg",
+        "fedprox",
+        "fedhaw_default"
+      ]
+    },
+    {
+      "dist": "Dir_a0.1",
+      "seed": 123,
+      "methods": [
+        "centralized",
+        "fedavg",
+        "fedprox",
+        "fedhaw_default"
+      ]
+    },
+    {
+      "dist": "Dir_a0.1",
+      "seed": 2026,
+      "methods": [
+        "centralized",
+        "fedavg",
+        "fedprox",
+        "fedhaw_default"
+      ]
+    }
+  ],
+  "runtime_s": 13.569275167013984
+}

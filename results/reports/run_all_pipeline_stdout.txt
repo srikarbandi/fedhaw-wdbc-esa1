@@ -1,0 +1,199 @@
+.............................................                            [100%]
+45 passed in 4.17s
+Dataset verification:
+  n_samples: 569
+  n_features: 30
+  raw_diagnosis_values: ['B', 'M']
+  label_mapping: {'B': 0, 'M': 1}
+  class_counts: {'benign': 357, 'malignant': 212}
+  class_percent: {'benign': 62.74, 'malignant': 37.26}
+  missing_values_total: 0
+  duplicate_rows_full: 0
+  duplicate_ids: 0
+  duplicate_feature_vectors: 0
+  feature_dtypes: ['float64']
+  verified: True
+
+seed 42 | IID | rejected draws: 0
+  client        n  benign  malig.     %B     %M   test n (B/M)
+  Hospital 1   80      50      30   62.5   37.5    18 (11/7)
+  Hospital 2   80      50      30   62.5   37.5    17 (11/6)
+  Hospital 3   79      50      29   63.3   36.7    17 (11/6)
+  Hospital 4   79      50      29   63.3   36.7    17 (11/6)
+  Hospital 5   79      49      30   62.0   38.0    17 (10/7)
+
+seed 42 | Dir_a10 | rejected draws: 0
+  client        n  benign  malig.     %B     %M   test n (B/M)
+  Hospital 1   88      56      32   63.6   36.4    19 (12/7)
+  Hospital 2   90      64      26   71.1   28.9    19 (14/5)
+  Hospital 3   54      25      29   46.3   53.7    11 (5/6)
+  Hospital 4   81      53      28   65.4   34.6    18 (12/6)
+  Hospital 5   84      51      33   60.7   39.3    19 (11/8)
+
+seed 42 | Dir_a1 | rejected draws: 0
+  client        n  benign  malig.     %B     %M   test n (B/M)
+  Hospital 1  109      79      30   72.5   27.5    23 (17/6)
+  Hospital 2  107      78      29   72.9   27.1    23 (17/6)
+  Hospital 3  144      79      65   54.9   45.1    31 (17/14)
+  Hospital 4   12      10       2   83.3   16.7     3 (2/1)
+  Hospital 5   25       3      22   12.0   88.0     6 (1/5)
+
+seed 42 | Dir_a0.1 | rejected draws: 2
+  client        n  benign  malig.     %B     %M   test n (B/M)
+  Hospital 1  133       0     133    0.0  100.0    28 (0/28)  <- single class
+  Hospital 2   64      64       0  100.0    0.0    13 (13/0)  <- single class
+  Hospital 3  182     176       6   96.7    3.3    41 (39/2)
+  Hospital 4    8       8       0  100.0    0.0     1 (1/0)  <- single class
+  Hospital 5   10       1       9   10.0   90.0     3 (1/2)
+
+seed 123 | IID | rejected draws: 0
+  client        n  benign  malig.     %B     %M   test n (B/M)
+  Hospital 1   80      50      30   62.5   37.5    18 (11/7)
+  Hospital 2   80      50      30   62.5   37.5    17 (11/6)
+  Hospital 3   79      50      29   63.3   36.7    17 (11/6)
+  Hospital 4   79      50      29   63.3   36.7    17 (11/6)
+  Hospital 5   79      49      30   62.0   38.0    17 (10/7)
+
+seed 123 | Dir_a10 | rejected draws: 0
+  client        n  benign  malig.     %B     %M   test n (B/M)
+  Hospital 1   58      34      24   58.6   41.4    12 (7/5)
+  Hospital 2  103      70      33   68.0   32.0    22 (15/7)
+  Hospital 3   95      63      32   66.3   33.7    21 (14/7)
+  Hospital 4   76      39      37   51.3   48.7    16 (8/8)
+  Hospital 5   65      43      22   66.2   33.8    15 (10/5)
+
+seed 123 | Dir_a1 | rejected draws: 0
+  client        n  benign  malig.     %B     %M   test n (B/M)
+  Hospital 1  150     108      42   72.0   28.0    32 (23/9)
+  Hospital 2  101      22      79   21.8   78.2    22 (5/17)
+  Hospital 3   48      46       2   95.8    4.2    10 (10/0)
+  Hospital 4   65      56       9   86.2   13.8    14 (12/2)
+  Hospital 5   33      17      16   51.5   48.5     8 (4/4)
+
+seed 123 | Dir_a0.1 | rejected draws: 14
+  client        n  benign  malig.     %B     %M   test n (B/M)
+  Hospital 1    8       8       0  100.0    0.0     1 (1/0)  <- single class
+  Hospital 2    5       0       5    0.0  100.0     1 (0/1)  <- single class
+  Hospital 3    5       0       5    0.0  100.0     1 (0/1)  <- single class
+  Hospital 4  240     240       0  100.0    0.0    52 (52/0)  <- single class
+  Hospital 5  139       1     138    0.7   99.3    31 (1/30)
+
+seed 2026 | IID | rejected draws: 0
+  client        n  benign  malig.     %B     %M   test n (B/M)
+  Hospital 1   80      50      30   62.5   37.5    18 (11/7)
+  Hospital 2   80      50      30   62.5   37.5    17 (11/6)
+  Hospital 3   79      50      29   63.3   36.7    17 (11/6)
+  Hospital 4   79      50      29   63.3   36.7    17 (11/6)
+  Hospital 5   79      49      30   62.0   38.0    17 (10/7)
+
+seed 2026 | Dir_a10 | rejected draws: 0
+  client        n  benign  malig.     %B     %M   test n (B/M)
+  Hospital 1   80      44      36   55.0   45.0    16 (9/7)
+  Hospital 2   57      29      28   50.9   49.1    12 (6/6)
+  Hospital 3  100      70      30   70.0   30.0    23 (16/7)
+  Hospital 4   79      53      26   67.1   32.9    17 (11/6)
+  Hospital 5   81      53      28   65.4   34.6    18 (12/6)
+
+seed 2026 | Dir_a1 | rejected draws: 0
+  client        n  benign  malig.     %B     %M   test n (B/M)
+  Hospital 1   50      10      40   20.0   80.0    10 (2/8)
+  Hospital 2  138      90      48   65.2   34.8    30 (19/11)
+  Hospital 3   31      30       1   96.8    3.2     7 (7/0)
+  Hospital 4   84      49      35   58.3   41.7    17 (10/7)
+  Hospital 5   94      70      24   74.5   25.5    22 (16/6)
+
+seed 2026 | Dir_a0.1 | rejected draws: 7
+  client        n  benign  malig.     %B     %M   test n (B/M)
+  Hospital 1   28       0      28    0.0  100.0     6 (0/6)  <- single class
+  Hospital 2   76       0      76    0.0  100.0    16 (0/16)  <- single class
+  Hospital 3   11      11       0  100.0    0.0     2 (2/0)  <- single class
+  Hospital 4  228     228       0  100.0    0.0    49 (49/0)  <- single class
+  Hospital 5   54      10      44   18.5   81.5    13 (3/10)
+
+Saved splits, partitions, tables and plots.
+[PASS] 1 dataset X=(569, 30), malignant=212
+[PASS] 2 preprocessing train/val/test=(397, 86, 86)
+[PASS] 3 partition IID [80, 80, 79, 79, 79]
+[PASS] 3 partition Dir_a10 [88, 90, 54, 81, 84]
+[PASS] 3 partition Dir_a1 [109, 107, 144, 12, 25]
+[PASS] 3 partition Dir_a0.1 [133, 64, 182, 8, 10]
+[PASS] 4 one-round fedavg val_acc=0.860, weights=[0.202, 0.202, 0.199, 0.199, 0.199], 0.03s
+[PASS] 5 one-round fedhaw_default val_acc=0.860, weights=[0.202, 0.202, 0.199, 0.199, 0.199], 0.01s
+[PASS] 6 short FedHAW (10 rounds) gamma[0]=0.0, gamma[-1]=1.838e-02, val_acc=0.953
+
+7 short baseline comparison (10 rounds, IID + Dir 0.1, validation set):
+   IID       centralized     val_acc=0.988 recall=1.000 val_loss=0.0561 finite=True
+   IID       fedavg          val_acc=0.942 recall=0.844 val_loss=0.2479 finite=True
+   IID       fedprox         val_acc=0.942 recall=0.844 val_loss=0.2482 finite=True
+   IID       fedhaw_default  val_acc=0.953 recall=0.875 val_loss=0.2155 finite=True
+   Dir_a0.1  centralized     val_acc=0.988 recall=1.000 val_loss=0.0561 finite=True
+   Dir_a0.1  fedavg          val_acc=0.965 recall=0.906 val_loss=0.1467 finite=True
+   Dir_a0.1  fedprox         val_acc=0.965 recall=0.906 val_loss=0.1470 finite=True
+   Dir_a0.1  fedhaw_default  val_acc=0.977 recall=0.938 val_loss=0.1096 finite=True
+[PASS] 7 short baseline comparison 
+NOTE: configs/selected.yaml exists and is ignored during tuning
+Stage A: shared learning rate (FedAvg selects; FedHAW repo-defaults = stability pilot)
+  lr=0.001  fedavg          val_loss=0.6367 val_acc=0.6909 val_recall=0.5703 finite=True max|gamma|=0
+  lr=0.001  fedhaw_default  val_loss=0.5244 val_acc=0.7558 val_recall=0.7083 finite=True max|gamma|=0.0824
+  lr=0.01   fedavg          val_loss=0.1754 val_acc=0.9632 val_recall=0.9010 finite=True max|gamma|=0
+  lr=0.01   fedhaw_default  val_loss=0.2392 val_acc=0.9835 val_recall=0.9714 finite=True max|gamma|=0.0647
+  lr=0.05   fedavg          val_loss=0.0591 val_acc=0.9826 val_recall=0.9740 finite=True max|gamma|=0
+  lr=0.05   fedhaw_default  val_loss=0.5556 val_acc=0.9797 val_recall=0.9792 finite=True max|gamma|=0.0365
+  lr=0.1    fedavg          val_loss=0.0628 val_acc=0.9816 val_recall=0.9714 finite=True max|gamma|=0
+  lr=0.1    fedhaw_default  val_loss=0.4831 val_acc=0.9797 val_recall=0.9792 finite=True max|gamma|=0.0311
+  -> selected lr = 0.05
+Stage B: FedHAW (lr_gamma, lr_lambda)
+  lr_gamma=1e-06    lr_lambda=0.001  val_loss=0.0591 val_acc=0.9826 recall=0.9740 finite=True final exp(gamma)=1.0001
+  lr_gamma=1e-06    lr_lambda=0.01   val_loss=0.0591 val_acc=0.9826 recall=0.9740 finite=True final exp(gamma)=1.0001
+  lr_gamma=1e-06    lr_lambda=0.1    val_loss=0.0593 val_acc=0.9806 recall=0.9688 finite=True final exp(gamma)=1.0001
+  lr_gamma=1e-06    lr_lambda=1      val_loss=0.0785 val_acc=0.9729 recall=0.9479 finite=True final exp(gamma)=1.0001
+  lr_gamma=1e-05    lr_lambda=0.001  val_loss=0.0588 val_acc=0.9826 recall=0.9740 finite=True final exp(gamma)=1.0007
+  lr_gamma=1e-05    lr_lambda=0.01   val_loss=0.0588 val_acc=0.9826 recall=0.9740 finite=True final exp(gamma)=1.0007
+  lr_gamma=1e-05    lr_lambda=0.1    val_loss=0.0590 val_acc=0.9806 recall=0.9688 finite=True final exp(gamma)=1.0007
+  lr_gamma=1e-05    lr_lambda=1      val_loss=0.0779 val_acc=0.9738 recall=0.9505 finite=True final exp(gamma)=1.0007
+  lr_gamma=0.0001   lr_lambda=0.001  val_loss=0.0618 val_acc=0.9835 recall=0.9766 finite=True final exp(gamma)=1.0061
+  lr_gamma=0.0001   lr_lambda=0.01   val_loss=0.0618 val_acc=0.9835 recall=0.9766 finite=True final exp(gamma)=1.0061
+  lr_gamma=0.0001   lr_lambda=0.1    val_loss=0.0621 val_acc=0.9826 recall=0.9740 finite=True final exp(gamma)=1.0062
+  lr_gamma=0.0001   lr_lambda=1      val_loss=0.0784 val_acc=0.9758 recall=0.9583 finite=True final exp(gamma)=1.0064
+  lr_gamma=0.001    lr_lambda=0.001  val_loss=0.5544 val_acc=0.9806 recall=0.9792 finite=True final exp(gamma)=1.0201
+  lr_gamma=0.001    lr_lambda=0.01   val_loss=0.5556 val_acc=0.9797 recall=0.9792 finite=True final exp(gamma)=1.0201
+  lr_gamma=0.001    lr_lambda=0.1    val_loss=0.5600 val_acc=0.9797 recall=0.9792 finite=True final exp(gamma)=1.0201
+  lr_gamma=0.001    lr_lambda=1      val_loss=0.6069 val_acc=0.9797 recall=0.9792 finite=True final exp(gamma)=1.0176
+  lr_gamma=0.01     lr_lambda=0.001  val_loss=0.4574 val_acc=0.9835 recall=0.9792 finite=True final exp(gamma)=1.0354
+  lr_gamma=0.01     lr_lambda=0.01   val_loss=0.4620 val_acc=0.9835 recall=0.9792 finite=True final exp(gamma)=1.0353
+  lr_gamma=0.01     lr_lambda=0.1    val_loss=0.5131 val_acc=0.9835 recall=0.9792 finite=True final exp(gamma)=1.0353
+  lr_gamma=0.01     lr_lambda=1      val_loss=0.9072 val_acc=0.9816 recall=0.9792 finite=True final exp(gamma)=1.0346
+Stage C: FedProx mu_prox
+  mu_prox=0.001  val_loss=0.0591 val_acc=0.9826 recall=0.9740
+  mu_prox=0.01   val_loss=0.0591 val_acc=0.9826 recall=0.9740
+  mu_prox=0.1    val_loss=0.0592 val_acc=0.9826 recall=0.9740
+  mu_prox=1      val_loss=0.0601 val_acc=0.9835 recall=0.9766
+Selected: {'training': {'lr': 0.05}, 'fedhaw': {'lr_gamma': 1e-05, 'lr_lambda': 0.01}, 'fedprox': {'mu_prox': 0.01}} (102s)
+[main] IID       seed 42    acc/recall: centralized 0.988/0.969 | fedavg 1.000/1.000 | fedprox 1.000/1.000 | fedhaw_default 0.988/0.969 | fedhaw_tuned 1.000/1.000
+[main] IID       seed 123   acc/recall: centralized 0.953/0.969 | fedavg 0.965/0.969 | fedprox 0.965/0.969 | fedhaw_default 0.953/0.969 | fedhaw_tuned 0.965/0.969
+[main] IID       seed 2026  acc/recall: centralized 0.953/0.938 | fedavg 0.953/0.969 | fedprox 0.953/0.969 | fedhaw_default 0.953/0.938 | fedhaw_tuned 0.953/0.969
+[main] Dir_a10   seed 42    acc/recall: centralized 0.988/0.969 | fedavg 0.988/0.969 | fedprox 0.988/0.969 | fedhaw_default 0.988/0.969 | fedhaw_tuned 0.988/0.969
+[main] Dir_a10   seed 123   acc/recall: centralized 0.953/0.969 | fedavg 0.977/0.969 | fedprox 0.977/0.969 | fedhaw_default 0.953/0.969 | fedhaw_tuned 0.977/0.969
+[main] Dir_a10   seed 2026  acc/recall: centralized 0.953/0.938 | fedavg 0.965/0.969 | fedprox 0.965/0.969 | fedhaw_default 0.942/0.938 | fedhaw_tuned 0.965/0.969
+[main] Dir_a1    seed 42    acc/recall: centralized 0.988/0.969 | fedavg 0.988/0.969 | fedprox 0.988/0.969 | fedhaw_default 0.988/0.969 | fedhaw_tuned 0.988/0.969
+[main] Dir_a1    seed 123   acc/recall: centralized 0.953/0.969 | fedavg 0.965/0.969 | fedprox 0.965/0.969 | fedhaw_default 0.930/0.969 | fedhaw_tuned 0.965/0.969
+[main] Dir_a1    seed 2026  acc/recall: centralized 0.953/0.938 | fedavg 0.965/0.969 | fedprox 0.965/0.969 | fedhaw_default 0.942/0.938 | fedhaw_tuned 0.965/0.969
+[main] Dir_a0.1  seed 42    acc/recall: centralized 0.988/0.969 | fedavg 0.988/0.969 | fedprox 0.988/0.969 | fedhaw_default 0.977/0.969 | fedhaw_tuned 0.988/0.969
+[main] Dir_a0.1  seed 123   acc/recall: centralized 0.953/0.969 | fedavg 0.965/0.969 | fedprox 0.965/0.969 | fedhaw_default 0.953/0.969 | fedhaw_tuned 0.965/0.969
+[main] Dir_a0.1  seed 2026  acc/recall: centralized 0.953/0.938 | fedavg 0.965/0.906 | fedprox 0.965/0.906 | fedhaw_default 0.953/0.938 | fedhaw_tuned 0.965/0.906
+[main] done in 17s
+[suggested_lr0.001] IID       seed 42    acc/recall: centralized 0.942/0.844 | fedavg 0.814/0.688 | fedprox 0.814/0.688 | fedhaw_default 0.826/0.844
+[suggested_lr0.001] IID       seed 123   acc/recall: centralized 0.872/0.656 | fedavg 0.733/0.406 | fedprox 0.733/0.406 | fedhaw_default 0.744/0.438
+[suggested_lr0.001] IID       seed 2026  acc/recall: centralized 0.930/0.812 | fedavg 0.419/1.000 | fedprox 0.419/1.000 | fedhaw_default 0.442/1.000
+[suggested_lr0.001] Dir_a10   seed 42    acc/recall: centralized 0.942/0.844 | fedavg 0.826/0.656 | fedprox 0.826/0.656 | fedhaw_default 0.826/0.812
+[suggested_lr0.001] Dir_a10   seed 123   acc/recall: centralized 0.872/0.656 | fedavg 0.733/0.375 | fedprox 0.733/0.375 | fedhaw_default 0.709/0.281
+[suggested_lr0.001] Dir_a10   seed 2026  acc/recall: centralized 0.930/0.812 | fedavg 0.419/1.000 | fedprox 0.419/1.000 | fedhaw_default 0.512/1.000
+[suggested_lr0.001] Dir_a1    seed 42    acc/recall: centralized 0.942/0.844 | fedavg 0.814/0.625 | fedprox 0.814/0.625 | fedhaw_default 0.849/0.812
+[suggested_lr0.001] Dir_a1    seed 123   acc/recall: centralized 0.872/0.656 | fedavg 0.767/0.406 | fedprox 0.767/0.406 | fedhaw_default 0.756/0.375
+[suggested_lr0.001] Dir_a1    seed 2026  acc/recall: centralized 0.930/0.812 | fedavg 0.430/1.000 | fedprox 0.430/1.000 | fedhaw_default 0.674/1.000
+[suggested_lr0.001] Dir_a0.1  seed 42    acc/recall: centralized 0.942/0.844 | fedavg 0.837/0.625 | fedprox 0.837/0.625 | fedhaw_default 0.860/0.812
+[suggested_lr0.001] Dir_a0.1  seed 123   acc/recall: centralized 0.872/0.656 | fedavg 0.628/0.000 | fedprox 0.628/0.000 | fedhaw_default 0.860/0.656
+[suggested_lr0.001] Dir_a0.1  seed 2026  acc/recall: centralized 0.930/0.812 | fedavg 0.779/0.406 | fedprox 0.779/0.406 | fedhaw_default 0.860/0.625
+[suggested_lr0.001] done in 14s
+[main] tables, 14 plots and report written
+[suggested_lr0.001] tables, 12 plots and report written

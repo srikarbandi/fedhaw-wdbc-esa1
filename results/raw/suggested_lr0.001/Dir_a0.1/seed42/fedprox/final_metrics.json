@@ -1,0 +1,47 @@
+{
+  "method": "fedprox",
+  "seed": 42,
+  "wall_time_s": 0.33188658399740234,
+  "val": {
+    "n": 86,
+    "n_malignant": 32,
+    "n_benign": 54,
+    "accuracy": 0.8604651162790697,
+    "recall": 0.625,
+    "specificity": 1.0,
+    "fpr": 0.0,
+    "precision": 1.0,
+    "f1": 0.7692307692307693,
+    "roc_auc": 0.9432870370370371,
+    "tn": 54,
+    "fp": 0,
+    "fn": 12,
+    "tp": 20,
+    "finite_outputs": true
+  },
+  "test": {
+    "n": 86,
+    "n_malignant": 32,
+    "n_benign": 54,
+    "accuracy": 0.8372093023255814,
+    "recall": 0.625,
+    "specificity": 0.9629629629629629,
+    "fpr": 0.037037037037037035,
+    "precision": 0.9090909090909091,
+    "f1": 0.7407407407407407,
+    "roc_auc": 0.9346064814814815,
+    "tn": 52,
+    "fp": 2,
+    "fn": 12,
+    "tp": 20,
+    "finite_outputs": true
+  },
+  "client_summary": {
+    "mean_client_accuracy": 0.787746806039489,
+    "mean_client_recall": 0.39285714285714285,
+    "worst_client_recall": 0.0,
+    "std_client_recall": 0.2871985257574957,
+    "client_recall_gap": 0.6785714285714286,
+    "n_clients_recall_defined": 3
+  }
+}

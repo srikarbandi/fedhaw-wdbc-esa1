@@ -1,0 +1,20 @@
+[PASS] 1 dataset X=(569, 30), malignant=212
+[PASS] 2 preprocessing train/val/test=(397, 86, 86)
+[PASS] 3 partition IID [80, 80, 79, 79, 79]
+[PASS] 3 partition Dir_a10 [88, 90, 54, 81, 84]
+[PASS] 3 partition Dir_a1 [109, 107, 144, 12, 25]
+[PASS] 3 partition Dir_a0.1 [133, 64, 182, 8, 10]
+[PASS] 4 one-round fedavg val_acc=0.698, weights=[0.202, 0.202, 0.199, 0.199, 0.199], 0.17s
+[PASS] 5 one-round fedhaw_default val_acc=0.698, weights=[0.202, 0.202, 0.199, 0.199, 0.199], 0.01s
+[PASS] 6 short FedHAW (10 rounds) gamma[0]=0.0, gamma[-1]=1.450e-03, val_acc=0.721
+
+7 short baseline comparison (10 rounds, IID + Dir 0.1, validation set):
+   IID       centralized     val_acc=0.860 recall=0.719 val_loss=0.6337 finite=True
+   IID       fedavg          val_acc=0.721 recall=0.781 val_loss=0.6643 finite=True
+   IID       fedprox         val_acc=0.721 recall=0.781 val_loss=0.6643 finite=True
+   IID       fedhaw_default  val_acc=0.721 recall=0.781 val_loss=0.6639 finite=True
+   Dir_a0.1  centralized     val_acc=0.860 recall=0.719 val_loss=0.6337 finite=True
+   Dir_a0.1  fedavg          val_acc=0.733 recall=0.750 val_loss=0.6573 finite=True
+   Dir_a0.1  fedprox         val_acc=0.733 recall=0.750 val_loss=0.6573 finite=True
+   Dir_a0.1  fedhaw_default  val_acc=0.733 recall=0.750 val_loss=0.6560 finite=True
+[PASS] 7 short baseline comparison 

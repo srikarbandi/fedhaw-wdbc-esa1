@@ -1,0 +1,47 @@
+{
+  "method": "fedhaw_default",
+  "seed": 123,
+  "wall_time_s": 0.25830012501683086,
+  "val": {
+    "n": 86,
+    "n_malignant": 32,
+    "n_benign": 54,
+    "accuracy": 0.7209302325581395,
+    "recall": 0.25,
+    "specificity": 1.0,
+    "fpr": 0.0,
+    "precision": 1.0,
+    "f1": 0.4,
+    "roc_auc": 0.814236111111111,
+    "tn": 54,
+    "fp": 0,
+    "fn": 24,
+    "tp": 8,
+    "finite_outputs": true
+  },
+  "test": {
+    "n": 86,
+    "n_malignant": 32,
+    "n_benign": 54,
+    "accuracy": 0.7093023255813954,
+    "recall": 0.28125,
+    "specificity": 0.9629629629629629,
+    "fpr": 0.037037037037037035,
+    "precision": 0.8181818181818182,
+    "f1": 0.4186046511627907,
+    "roc_auc": 0.8153935185185185,
+    "tn": 52,
+    "fp": 2,
+    "fn": 23,
+    "tp": 9,
+    "finite_outputs": true
+  },
+  "client_summary": {
+    "mean_client_accuracy": 0.7082683982683982,
+    "mean_client_recall": 0.2957142857142857,
+    "worst_client_recall": 0.0,
+    "std_client_recall": 0.16058566281595882,
+    "client_recall_gap": 0.42857142857142855,
+    "n_clients_recall_defined": 5
+  }
+}

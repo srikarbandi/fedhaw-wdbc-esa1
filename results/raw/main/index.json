@@ -1,0 +1,138 @@
+{
+  "tag": "main",
+  "runs": [
+    {
+      "dist": "IID",
+      "seed": 42,
+      "methods": [
+        "centralized",
+        "fedavg",
+        "fedprox",
+        "fedhaw_default",
+        "fedhaw_tuned"
+      ]
+    },
+    {
+      "dist": "IID",
+      "seed": 123,
+      "methods": [
+        "centralized",
+        "fedavg",
+        "fedprox",
+        "fedhaw_default",
+        "fedhaw_tuned"
+      ]
+    },
+    {
+      "dist": "IID",
+      "seed": 2026,
+      "methods": [
+        "centralized",
+        "fedavg",
+        "fedprox",
+        "fedhaw_default",
+        "fedhaw_tuned"
+      ]
+    },
+    {
+      "dist": "Dir_a10",
+      "seed": 42,
+      "methods": [
+        "centralized",
+        "fedavg",
+        "fedprox",
+        "fedhaw_default",
+        "fedhaw_tuned"
+      ]
+    },
+    {
+      "dist": "Dir_a10",
+      "seed": 123,
+      "methods": [
+        "centralized",
+        "fedavg",
+        "fedprox",
+        "fedhaw_default",
+        "fedhaw_tuned"
+      ]
+    },
+    {
+      "dist": "Dir_a10",
+      "seed": 2026,
+      "methods": [
+        "centralized",
+        "fedavg",
+        "fedprox",
+        "fedhaw_default",
+        "fedhaw_tuned"
+      ]
+    },
+    {
+      "dist": "Dir_a1",
+      "seed": 42,
+      "methods": [
+        "centralized",
+        "fedavg",
+        "fedprox",
+        "fedhaw_default",
+        "fedhaw_tuned"
+      ]
+    },
+    {
+      "dist": "Dir_a1",
+      "seed": 123,
+      "methods": [
+        "centralized",
+        "fedavg",
+        "fedprox",
+        "fedhaw_default",
+        "fedhaw_tuned"
+      ]
+    },
+    {
+      "dist": "Dir_a1",
+      "seed": 2026,
+      "methods": [
+        "centralized",
+        "fedavg",
+        "fedprox",
+        "fedhaw_default",
+        "fedhaw_tuned"
+      ]
+    },
+    {
+      "dist": "Dir_a0.1",
+      "seed": 42,
+      "methods": [
+        "centralized",
+        "fedavg",
+        "fedprox",
+        "fedhaw_default",
+        "fedhaw_tuned"
+      ]
+    },
+    {
+      "dist": "Dir_a0.1",
+      "seed": 123,
+      "methods": [
+        "centralized",
+        "fedavg",
+        "fedprox",
+        "fedhaw_default",
+        "fedhaw_tuned"
+      ]
+    },
+    {
+      "dist": "Dir_a0.1",
+      "seed": 2026,
+      "methods": [
+        "centralized",
+        "fedavg",
+        "fedprox",
+        "fedhaw_default",
+        "fedhaw_tuned"
+      ]
+    }
+  ],
+  "runtime_s": 17.006593541998882
+}
